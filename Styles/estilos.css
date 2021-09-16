@@ -14,7 +14,7 @@ ul{
 }
 
 .logo{
-    height: 70 px;
+    height: 100px;
 }
 .button {
     border: 0px;
@@ -50,7 +50,7 @@ ul{
   .secondaryButton:hover{
     box-shadow: 1px 1px #2ac8f8
   }
-  
+
 .buscar{
     background-color: white;
     border: 1px solid gray;
