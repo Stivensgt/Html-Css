@@ -12,12 +12,10 @@ ul{
     display: flex;
     justify-content: space-between;
 }
-<<<<<<< HEAD
 
 .logo{
     height: 70 px;
 }
-=======
 .mainButton {
     background-color: #1bb76e;
     color: white;
@@ -32,4 +30,3 @@ ul{
     box-shadow: 1px 1px green;
     transform: scale(1.1);
   }
->>>>>>> crear-boton-nuevo-post
