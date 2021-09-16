@@ -16,6 +16,18 @@ ul{
 .logo{
     height: 70 px;
 }
+.button {
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+  }
+  
+  .button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+
 .mainButton {
     background-color: #1bb76e;
     color: white;
@@ -30,6 +42,15 @@ ul{
     box-shadow: 1px 1px green;
     transform: scale(1.1);
   }
+  .secondaryButton {
+    background-color: #2ac8f8;
+    color: white;
+  }
+  
+  .secondaryButton:hover{
+    box-shadow: 1px 1px #2ac8f8
+  }
+  
 .buscar{
     background-color: white;
     border: 1px solid gray;
