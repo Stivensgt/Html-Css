@@ -86,3 +86,23 @@ ul{
   color: blue;
 
 }
+
+.contenedorImagen{
+  width: 240px;
+  height: 350px;
+  display: flex;
+}
+
+.contenedorImagen > img{
+ 
+  object-fit: contain;
+  width: 100%;
+}
+
+.breedCardContainer {
+  display: flex;
+
+}
+.breedCard{
+margin: 10 px;
+}
