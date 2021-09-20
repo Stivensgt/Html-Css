@@ -12,3 +12,58 @@ ul{
     display: flex;
     justify-content: space-between;
 }
+
+.logo{
+    height: 100px;
+}
+.button {
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+  }
+  
+  .button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+
+.mainButton {
+    background-color: #1bb76e;
+    color: white;
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+  }
+  
+  .mainButton:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px green;
+    transform: scale(1.1);
+  }
+  .secondaryButton {
+    background-color: #2ac8f8;
+    color: white;
+  }
+  
+  .secondaryButton:hover{
+    box-shadow: 1px 1px #2ac8f8
+  }
+
+.buscar{
+    background-color: white;
+    border: 1px solid gray;
+    padding: 4px;
+    border-radius: 8px;
+
+}
+
+.buscar:focus-within{
+    border: 1px solid blue
+}
+
+.buscar > input{
+    outline: none;
+    border: 0px;
+}
