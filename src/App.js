@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './styles/App.css';
 import bordercollie from './media/border-collie.jpg';
 import rhodesiam from './media/rhodesiam.jpg'
+import favicon from './media/favicon.ico'
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <header>
         <ul className="navbar">
             <li>
-                <img src="/media/9d916a7e65a33b6ed2c88d6cdb32ca38.ico" alt="imagen" classNameName="logo"  />
+                <img src={favicon} alt="imagen" className="logo"  />
             </li>
             <li>
                 <button className="button mainButton" >Nuevo post</button>
