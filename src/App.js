@@ -1,16 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shorcut icon" href="./media/9d916a7e65a33b6ed2c88d6cdb32ca38.ico" type="image/x-icon">
-    <link rel="stylesheet" href="/Styles/estilos.css">
-    <script src="https://kit.fontawesome.com/5a3255ed36.js" crossorigin="anonymous"></script>   
-    <title>Razas de perros</title>
-</head>
-<body>
-    <header>
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <header>
         <ul class="navbar">
             <li>
                 <img src="/media/9d916a7e65a33b6ed2c88d6cdb32ca38.ico" alt="imagen" class="logo"  />
@@ -20,7 +14,8 @@
             </li>
             <li>
                 <div class="buscar">
-                <input placeholder="Buscar una raza" type="text">
+                <input placeholder="Buscar una raza" type="text"/>
+                  
                 <i class="fas fa-search button iconoBusqueda"></i>
                 </div>
             </li>
@@ -36,7 +31,7 @@
             <ul class="breedCardContainer ">
                 <li class="breedCard">
                     <div class="contenedorImagen ">
-                    <img src="/media/border-collie.jpg" alt="Border collie">
+                    <img src="/media/border-collie.jpg" alt="Border collie"/>
                     </div>
                     
                     <span class="breedTitle">
@@ -47,7 +42,7 @@
                 </li>
                 <li class="breedCard">
                     <div class="contenedorImagen">
-                    <img src="/media/9d916a7e65a33b6ed2c88d6cdb32ca38.jpg" alt="Rhodesiam">
+                    <img src="/media/9d916a7e65a33b6ed2c88d6cdb32ca38.jpg" alt="Rhodesiam"/>
                     </div>
                     <span class="breedTitle">Rhodesiam</span>
                     
@@ -57,6 +52,8 @@
         <section></section>
     </main>
     <footer></footer>
+    </div>
+  );
+}
 
-</body>
-</html>
+export default App;
