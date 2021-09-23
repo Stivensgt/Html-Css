@@ -1,6 +1,6 @@
 import React from 'react'
 
-const borderCollie = () => {
+function BorderCollie () {
     return (
         <div>
         Esta es la pagina de info del Border Collie
@@ -8,4 +8,4 @@ const borderCollie = () => {
     );
 }
 
-export default borderCollie
+export default BorderCollie

@@ -1,6 +1,6 @@
 import Layout from "layout/layout";
 import Index from "pages";
-import borderCollie from "pages/borderCollie";
+import BorderCollie from "pages/borderCollie";
 import RhodesianInfoPage from "pages/rhodesiam";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import 'styles/App.css';
@@ -15,7 +15,7 @@ function App() {
                     <RhodesianInfoPage />
                 </Route>
                 <Route path= '/borderCollie'>
-                    <borderCollie />
+                    <BorderCollie/>
                 </Route>
                 <Route path='/' >
                     <Index />
