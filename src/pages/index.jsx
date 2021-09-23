@@ -6,12 +6,11 @@ import rhodesiam from 'media/rhodesiam.jpg'
 
 function Index() {
 return (
-
-    <div>
+    <div className = "App">
      <section>
          <h1>Razas de perros</h1>
          <ul className="breedCardContainer ">
-             <CardRazasPerros nombreRaza='Border Collie' imagen={bordercollie}/>
+             <CardRazasPerros nombreRaza='borderCollie' imagen={bordercollie}/>
              <CardRazasPerros nombreRaza='Rhodesiam' imagen={rhodesiam}/>
          </ul>
      </section>

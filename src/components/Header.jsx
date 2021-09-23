@@ -2,8 +2,9 @@
 import favicon from 'media/favicon.ico'
 
 const Header = () => {
-
-    <ul className="navbar">
+    return (
+        <header>
+            <ul className="navbar">
                 <li>
                     <img src={favicon} alt="imagen" className="logo"  />
                 </li>
@@ -21,6 +22,9 @@ const Header = () => {
                 <li><button className="button secondaryButton">Login</button></li>
                 <li><button className="mainButton">Registro</button></li>
             </ul>
+        </header>
+    
+    )
 }
 
 export default Header;

@@ -5,7 +5,7 @@ import React from 'react'
 
 const Layout = ({children}) => {
     return (
-        <div>
+        <div className = "mainContainer">
             <Header/>
             <main>{children}</main>
             <Footer/>

@@ -9,19 +9,19 @@ function App() {
   return (
     <div className="App">
         <Router>
-            <Switch>
             <Layout> 
+            <Switch>
                 <Route path= '/rhodesiam'>
                     <RhodesianInfoPage />
                 </Route>
                 <Route path= '/borderCollie'>
                     <borderCollie />
                 </Route>
-                <Route path='/' exact>
+                <Route path='/' >
                     <Index />
                 </Route>
-                </Layout> 
             </Switch>
+            </Layout> 
         </Router>
     </div>
   );

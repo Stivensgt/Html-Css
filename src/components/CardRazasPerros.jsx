@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 function CardRazasPerros({nombreRaza, imagen}) {
     return(
         <li className="breedCard">
-            <Link to= '/rhodesiam'>
+            <Link to={nombreRaza}>
             <div className="contenedorImagen ">
             <img src={imagen} alt={nombreRaza}/>
             </div>
