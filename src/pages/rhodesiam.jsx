@@ -1,5 +1,5 @@
 function RhodesianInfoPage() {
-    return (<div>Esta es la pagina de info del rhodesian</div>);
+    return (<>Esta es la pagina de info del rhodesian</>);
   }
   
   export default RhodesianInfoPage;
